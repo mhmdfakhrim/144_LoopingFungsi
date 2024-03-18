@@ -35,8 +35,17 @@ int TotalHarga(){
 void Display(){
   cout << "Total Harganya : " << TotalHarga() << endl; 
 }
+
 int main(){
+  char pilihan;
+  do
+  {
+    input();
+    Display();
+    cout << "Apakah ingin membeli kembali?"; 
+    cin >> pilihan;
+  }while(pilihan == 'y'||pilihan == 'Y');
+
   input();
-  Display();
- 
+  Display(); 
 }
