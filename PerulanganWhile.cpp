@@ -17,5 +17,5 @@ int main(){
 
   cout << bilangan << endl; 
 
-  cout << "BIlangannya Genap" << endl;  
+  cout << "Bilangannya Genap" << endl;  
 }
